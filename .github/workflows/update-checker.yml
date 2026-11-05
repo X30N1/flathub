@@ -6,6 +6,9 @@ on:
 jobs:
   flatpak-external-data-checker:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     strategy:
       matrix:
         branch: [ master ]
