@@ -11,7 +11,7 @@ finish-args:
   - --share=network
   - --socket=wayland
   - --socket=fallback-x11
-  - --socket=pcsc
+  - --filesystem=xdg-download
   - --device=dri
   - --talk-name=org.kde.StatusNotifierWatcher
 
